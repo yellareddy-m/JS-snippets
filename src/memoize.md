@@ -1,6 +1,6 @@
-### Memoize function
+## Memoize function
 
-## Function which can be used to memoize any function result, thereby helping in faster computation when the same set of parameters are passed to the function
+#### Function which can be used to memoize any function result, thereby helping in faster computation when the same set of parameters are passed to the function
 
 ```js
 function memoize(fn) {
