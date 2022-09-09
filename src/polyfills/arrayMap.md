@@ -30,12 +30,12 @@ map(function(element, index, array) { /* … */ }, thisArg)
 ```js
 (() => {
   Array.prototype.myMap = function(callback) {
-  ler res = [];
+  let res = [];
     for (let i = 0; i < this.length; i++) {
       res.push(callback(this[i], i, this));
     }
     return res;
   }
 })();
-[1,2,3,4].myMap(e => {console.log(e)});
+[1,2,3,4].myMap(e => e * e);
 ```
