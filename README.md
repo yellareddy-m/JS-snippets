@@ -1,2 +1,2 @@
 # JS-snippets
- A collection of JavaScript code snippets and useful functions
+ A collection of JavaScript code snippets, polyfills and useful functions.
