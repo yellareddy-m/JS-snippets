@@ -25,7 +25,7 @@ forEach(function(element, index, array) { /* … */ }, thisArg)
 ```
 
 ### Polyfill implementation
-#### The IIFE is for executing the definition immediately so that we can test the metohd in the next statement.
+#### The IIFE is for executing the definition immediately so that we can test the method in the next statement.
 
 ```js
 (() => {
