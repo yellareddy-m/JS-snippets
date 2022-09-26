@@ -13,7 +13,6 @@ function purchaseCar(price, currency) {
 
 console.log(purchaseCar.call(car, 20000, '$'));
 
-
 Function.prototype.customCall = function(context = {}, ...args) {
   if (typeof this !== 'function') {
       throw new Error('inaccurate function call');
